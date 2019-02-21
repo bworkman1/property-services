@@ -11,7 +11,7 @@ class Dashboard extends CI_Controller
 
     public function index()
     {
-        $this->output->set_template('default-admin');
+        $this->output->set_template('logged-in-admin');
     }
 
 }

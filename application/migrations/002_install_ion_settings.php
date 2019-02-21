@@ -5,6 +5,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 class Migration_Install_ion_settings extends CI_Migration {
 
     private $NewGroups;
+    private $Type;
 
     public function __construct()
     {
@@ -20,27 +21,42 @@ class Migration_Install_ion_settings extends CI_Migration {
 
     public function up()
     {
+        $this->Type = 'Updated';
+
         // CREATE NEW GROUPS
         foreach($this->NewGroups as $name => $desc) {
-            $group = $this->ion_auth->create_group($name, $desc);
-            echo !$group ? $this->ion_auth->messages() : $name . ' was created (' . $group . ')<br>';
+            $this->ion_auth->create_group($name, $desc);
         }
 
         // REMOVE DEFAULT GENERATED GROUP (members)
-        $removed_group = $this->ion_auth->delete_group(2);
+        @$this->ion_auth->delete_group(2);
+
+        $this->setUpgradeData();
     }
 
     public function down()
     {
+        $this->Type = 'Removed';
+
         // REMOVE NEW GROUPS
         $groups = $this->ion_auth->groups()->result();
         foreach($groups as $group) {
             if(array_key_exists($group->name, $this->NewGroups)) {
-                $removed_group = $this->ion_auth->delete_group($group->id);
-                echo !$removed_group ? $this->ion_auth->messages() : $group->name . ' was deleted (' . $group->id . ')<br>';
+                $this->ion_auth->delete_group($group->id);
             }
         }
 
+        $this->setUpgradeData();
+    }
 
+    private function setUpgradeData()
+    {
+        $classNameArray = explode('_', get_class($this));
+
+        unset($classNameArray[0]);
+
+        $previousChange = $this->session->userdata('changed');
+        $changed = $previousChange . '<h3>' . $this->Type . ' ' . ucwords(implode(' ', $classNameArray)) . '</h3>';
+        $this->session->set_userdata('changed', $changed);
     }
 }

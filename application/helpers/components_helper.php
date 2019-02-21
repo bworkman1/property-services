@@ -71,3 +71,24 @@ if (!function_exists('validation_errors_array')) {
       return $OBJ->error_array($prefix, $suffix);
    }
 }
+
+if (!function_exists('get_settings')) {
+
+    function get_settings($settings = []) {
+        $ci =& get_instance();
+        $ci->load->database();
+
+        if(!empty($settings)) {
+            $query = $ci->db->get_where('settings', $settings);
+        } else {
+            $query = $ci->db->get('settings');
+        }
+
+        $settings = [];
+        foreach($query->result() as $row) {
+            $settings[$row->name] = $row->value;
+        }
+
+        return $settings;
+    }
+}

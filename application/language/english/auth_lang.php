@@ -19,13 +19,15 @@
 
 // Errors
 $lang['error_csrf'] = 'This form post did not pass our security checks.';
-
+$lang['login_error'] = 'Invalid identity or password';
+$lang['login_error_with_tries'] = 'Invalid identity or password {TRIES_LEFT}';
+$lang['login_attempts_max'] = 'The account has been locked due to too many failed login attempts, try again later';
 // Login
-$lang['login_heading']         = 'Login';
+$lang['login_heading']         = 'Welcome Back!';
 $lang['login_subheading']      = 'Please login with your email/username and password below.';
-$lang['login_identity_label']  = 'Email/Username:';
-$lang['login_password_label']  = 'Password:';
-$lang['login_remember_label']  = 'Remember Me:';
+$lang['login_identity_label']  = 'Identity';
+$lang['login_password_label']  = 'Password';
+$lang['login_remember_label']  = 'Remember Me';
 $lang['login_submit_btn']      = 'Login';
 $lang['login_forgot_password'] = 'Forgot your password?';
 
@@ -53,7 +55,7 @@ $lang['deactivate_validation_confirm_label'] = 'confirmation';
 $lang['deactivate_validation_user_id_label'] = 'user ID';
 
 // Create User
-$lang['create_user_heading']                           = 'Create User';
+$lang['create_user_heading']                           = 'Create an Account!';
 $lang['create_user_subheading']                        = 'Please enter the user\'s information below.';
 $lang['create_user_fname_label']                       = 'First Name:';
 $lang['create_user_lname_label']                       = 'Last Name:';

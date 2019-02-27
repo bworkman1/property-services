@@ -37,6 +37,7 @@
         <link href="<?php echo base_url('assets/css/sb-admin-2.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/vendor/alertifyjs/css/alertify.min.css'); ?>" rel="stylesheet">
         <link href="<?php echo base_url('assets/vendor/alertifyjs/css/themes/bootstrap.min.css'); ?>" rel="stylesheet">
+        <link href="<?php echo base_url('assets/css/styles.css'); ?>" rel="stylesheet">
 
     </head>
     <body id="page-top">

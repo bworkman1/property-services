@@ -133,3 +133,6 @@ ul.gallery-list li a.active {
 .hide {
   display: none;
 }
+.nav-active, .nav-active i {
+    color: #fff !important;
+}

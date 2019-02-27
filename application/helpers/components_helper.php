@@ -92,3 +92,13 @@ if (!function_exists('get_settings')) {
         return $settings;
     }
 }
+
+if (!function_exists('isActive')) {
+
+    function isActive($page) {
+        if(strpos($_SERVER['REQUEST_URI'], $page) !== false) {
+            return 'nav-active';
+        }
+        return;
+    }
+}

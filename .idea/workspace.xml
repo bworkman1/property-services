@@ -3,31 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="25a210be-4793-49a0-a876-ec5c3017a5d3" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/autoload.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/autoload.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/config.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/config.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/config/ion_auth.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/config/ion_auth.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Dashboard.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Dashboard.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/controllers/admin/Login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/controllers/admin/Login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/language/english/auth_lang.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/language/english/auth_lang.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/components/top-nav-bar.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/components/top-nav-bar.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/pages/login.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/pages/login.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/themes/blank.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/themes/blank.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/helpers/components_helper.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/helpers/components_helper.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/views/components/sidebar-nav.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/components/sidebar-nav.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/views/themes/logged-in-admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/themes/logged-in-admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/assets/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/css/lightbox.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/css/lightbox.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/css/lightbox.min.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/css/lightbox.min.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/images/close.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/images/close.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/images/loading.gif" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/images/loading.gif" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/images/next.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/images/next.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/images/prev.png" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/images/prev.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox-plus-jquery.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox-plus-jquery.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox-plus-jquery.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox-plus-jquery.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox-plus-jquery.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox-plus-jquery.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox.min.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox.min.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/lightbox/js/lightbox.min.map" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/lightbox/js/lightbox.min.map" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/third_party/mask/jquery.mask.js" beforeDir="false" afterPath="$PROJECT_DIR$/assets/vendor/mask/jquery.mask.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/assets/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/assets/css/styles.css" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -44,22 +23,19 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Dashboard.php">
+        <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-nav.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="12" selection-start-line="12" selection-start-column="12" selection-end-line="12" selection-end-column="17" />
+            <state relative-caret-position="323">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/pages/login.php">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="383">
-              <caret line="33" column="50" lean-forward="true" selection-start-line="33" selection-start-column="50" selection-end-line="33" selection-end-column="50" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="790">
+              <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -67,67 +43,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/application/views/themes/logged-in-admin.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
+            <state relative-caret-position="663">
+              <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/components/top-nav-bar-search.php">
-          <provider selected="true" editor-type-id="text-editor" />
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-toggle-top.php">
+        <entry file="file://$PROJECT_DIR$/application/helpers/components_helper.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/views/components/top-nav-bar.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="603">
-              <caret line="165" column="76" selection-start-line="165" selection-start-column="76" selection-end-line="165" selection-end-column="76" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/language/english/form_lang.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="26" selection-start-line="4" selection-start-column="7" selection-end-line="4" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/controllers/admin/Login.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/application/config/ion_auth.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="980">
-              <caret line="140" column="41" selection-start-line="140" selection-start-column="41" selection-end-line="140" selection-end-column="41" />
+            <state relative-caret-position="739">
+              <caret line="97" column="21" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -172,12 +98,10 @@
         <option value="$PROJECT_DIR$/application/views/components/top-nav-bar-search.php" />
         <option value="$PROJECT_DIR$/application/views/components/sidebar-toggle-top.php" />
         <option value="$PROJECT_DIR$/application/views/themes/default-admin.php" />
-        <option value="$PROJECT_DIR$/application/views/components/sidebar-nav.php" />
         <option value="$PROJECT_DIR$/application/config/database.php" />
         <option value="$PROJECT_DIR$/application/config/routes.php" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/assets/css/sb-admin-2.css" />
-        <option value="$PROJECT_DIR$/application/helpers/components_helper.php" />
         <option value="$PROJECT_DIR$/application/migrations/Test.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/Update.php" />
         <option value="$PROJECT_DIR$/application/migrations/002_install_ion_settings.php" />
@@ -187,7 +111,6 @@
         <option value="$PROJECT_DIR$/application/config/config.php" />
         <option value="$PROJECT_DIR$/application/config/autoload.php" />
         <option value="$PROJECT_DIR$/application/views/themes/blank.php" />
-        <option value="$PROJECT_DIR$/application/views/themes/logged-in-admin.php" />
         <option value="$PROJECT_DIR$/application/views/pages/login.php" />
         <option value="$PROJECT_DIR$/application/language/english/form_lang.php" />
         <option value="$PROJECT_DIR$/application/language/english/auth_lang.php" />
@@ -197,6 +120,10 @@
         <option value="$PROJECT_DIR$/application/controllers/admin/Dashboard.php" />
         <option value="$PROJECT_DIR$/application/views/components/top-nav-bar.php" />
         <option value="$PROJECT_DIR$/application/controllers/admin/Login.php" />
+        <option value="$PROJECT_DIR$/application/helpers/components_helper.php" />
+        <option value="$PROJECT_DIR$/application/views/components/sidebar-nav.php" />
+        <option value="$PROJECT_DIR$/application/views/themes/logged-in-admin.php" />
+        <option value="$PROJECT_DIR$/assets/css/styles.css" />
       </list>
     </option>
   </component>
@@ -241,14 +168,7 @@
               <item name="property-service" type="b2602c69:ProjectViewProjectNode" />
               <item name="property-service" type="462c0819:PsiDirectoryNode" />
               <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="property-service" type="b2602c69:ProjectViewProjectNode" />
-              <item name="property-service" type="462c0819:PsiDirectoryNode" />
-              <item name="application" type="462c0819:PsiDirectoryNode" />
-              <item name="controllers" type="462c0819:PsiDirectoryNode" />
-              <item name="admin" type="462c0819:PsiDirectoryNode" />
+              <item name="helpers" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="property-service" type="b2602c69:ProjectViewProjectNode" />
@@ -262,6 +182,13 @@
               <item name="application" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="property-service" type="b2602c69:ProjectViewProjectNode" />
+              <item name="property-service" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+              <item name="theme" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="property-service" type="b2602c69:ProjectViewProjectNode" />
@@ -316,12 +243,12 @@
       <workItem from="1549144645106" duration="171000" />
       <workItem from="1550628243819" duration="17958000" />
       <workItem from="1550965497263" duration="260000" />
-      <workItem from="1551234444984" duration="10384000" />
+      <workItem from="1551234444984" duration="11639000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28773000" />
+    <option name="totallyTimeSpent" value="30028000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
@@ -425,13 +352,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-nav.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="501">
-          <caret line="95" column="30" selection-start-line="95" selection-start-column="30" selection-end-line="95" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/migrations/001_install_ion_auth.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
@@ -511,13 +431,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/helpers/components_helper.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="654">
-          <caret line="81" column="61" selection-start-line="81" selection-start-column="61" selection-end-line="81" selection-end-column="61" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/system/helpers/form_helper.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="121">
@@ -583,22 +496,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-toggle-top.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/application/views/components/top-nav-bar-search.php">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/application/views/themes/logged-in-admin.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="15" lean-forward="true" selection-start-column="15" selection-end-column="15" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/application/views/components/top-nav-bar.php">
       <provider selected="true" editor-type-id="text-editor">
@@ -614,17 +513,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Login.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="12" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
           <caret line="18" column="54" lean-forward="true" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/controllers/admin/Login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="9" lean-forward="true" selection-start-line="21" selection-start-column="9" selection-end-line="21" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-toggle-top.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="9" lean-forward="true" selection-start-line="2" selection-start-column="9" selection-end-line="2" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/helpers/components_helper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="739">
+          <caret line="97" column="21" selection-start-line="97" selection-start-column="13" selection-end-line="97" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/components/sidebar-nav.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/application/views/themes/logged-in-admin.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="62" selection-start-line="39" selection-start-column="62" selection-end-line="39" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/css/styles.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="790">
+          <caret line="135" column="26" selection-start-line="135" selection-start-column="26" selection-end-line="135" selection-end-column="26" />
         </state>
       </provider>
     </entry>

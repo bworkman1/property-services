@@ -42,6 +42,7 @@ class Login extends CI_Controller
             if ($this->form_validation->run() !== FALSE) {
                 if ($this->ion_auth->login($data['identity'], $data['password'], $data['remember-me'])) {
                     $this->ion_auth->clear_login_attempts($data['identity']);
+                    $this->session->set_userdata('userdata', $this->ion_auth->user()->row());
 
                     echo json_encode([
                         'success' => true,
